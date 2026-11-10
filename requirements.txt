@@ -4,12 +4,12 @@
 # The reference run used the CUDA 12.1 wheel on an NVIDIA GTX 1660 Ti. If you have an
 # NVIDIA GPU, install that wheel FIRST so this file does not replace it with the CPU one:
 #
-#     pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+#     pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cu121
 #
 # Without a GPU, plain "pip install -r requirements.txt" is enough; PyPI's CPU wheel is
 # selected automatically and everything still runs, just slower.
 
-torch==2.5.1
+torch==2.13.0
 transformers==5.0.0
 accelerate>=1.1.0,<2
 datasets>=2.15.0,<5
