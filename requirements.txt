@@ -10,7 +10,7 @@
 # selected automatically and everything still runs, just slower.
 
 torch==2.5.1
-transformers==5.0.0
+transformers==5.10.1
 accelerate>=1.1.0,<2
 datasets>=2.15.0,<5
 
