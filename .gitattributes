@@ -1,0 +1,3 @@
+# Data files are stored byte-for-byte, with no line-ending conversion,
+# so the SHA-256 published in dataset/README.md matches on every platform.
+*.csv -text
