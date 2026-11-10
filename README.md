@@ -232,7 +232,7 @@ Then `pip install -r requirements.txt` will see the pinned version is already sa
 
 ### Verified environment
 
-| | |
+| Component | Version |
 |---|---|
 | Python | 3.11.14 |
 | PyTorch | 2.5.1+cu121 |
