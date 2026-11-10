@@ -240,6 +240,11 @@ Then `pip install -r requirements.txt` will see the pinned version is already sa
 | GPU | NVIDIA GeForce GTX 1660 Ti |
 | OS | Windows 11 |
 
+> **These pins are deliberate.** This is a frozen coursework artefact: the figures in
+> [Results](#results) were produced with exactly these versions, so `requirements.txt` is
+> not bumped to newer ones. Dependabot advisories that do not touch code this project
+> actually runs are dismissed as *tolerable risk* for the same reason.
+
 ---
 
 ## Repository structure
